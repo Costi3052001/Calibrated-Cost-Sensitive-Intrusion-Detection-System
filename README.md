@@ -21,9 +21,9 @@ The workflow includes:
 - Scaling numerical features
 - Training a Logistic Regression model
 - Applying probability calibration with sigmoid scaling
-- Selecting an operating threshold based on asymmetric false positive / false negative costs
+- Selecting an operating threshold based on false positive / false negative costs
 - Evaluating performance using ROC AUC, Average Precision, confusion matrix, and plots
-- Inspecting the most influential model coefficients
+
 
 ---
 
@@ -102,7 +102,6 @@ The notebook evaluates the model using:
 - **Confusion Matrix**
 - **ROC Curve**
 - **Precision-Recall Curve**
-- **Calibration Curve**
 - **Total Cost vs Threshold Curve**
 
 
